@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Kokoa Talk</title>
+</head>
+
+<body>
+    <!-- STATUS BAR AND HEADER -->
+    <div class="fixed-header">
+        <!-- STATUS BAR -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <i class="fas fa-signal"></i><!-- Signal Icon-->
+                <span>Virgin</span>
+                <i class="fas fa-wifi"></i><!-- Wifi Icon -->
+            </div>
+            <div class="status-bar__column">
+                <span>10:12</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lightning Icon -->
+            </div>
+        </div>
+        <!-- HEADER -->
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="more.html">
+                    <i class="fas fa-angle-left fa-2x"></i> <!-- Angle icon -->
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__column screen-header__icons">
+                <i class="fas fa-search fa-lg"></i> <!-- Search icon -->
+            </div>
+        </header>
+    </div>
+
+    <!-- MAIN -->
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kakao Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">Latest Version</div>
+            </li>
+        </ul>
+
+    </main>
+
+
+    <!-- NAV BAR -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li calss="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i></i> <!-- User icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">3</span>
+                    <i class="far fa-comment fa-2x"></i></i> <!-- Message icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i> <!-- Search icon -->
+                </a></li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis alert"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i> <!-- Ellipsis icon -->
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

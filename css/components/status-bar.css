@@ -1,0 +1,58 @@
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+.status-bar {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 5px 3px;
+  background-color: var(--black);
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
+
+.status-bar .fa-bolt,
+.status-bar .fa-battery-full {
+  color: rgb(34, 187, 70);
+}
+
+.status-bar .fa-signal {
+  margin-right: 5px;
+}
+
+@keyframes changeColor {
+  from {
+    color: rgb(34, 187, 70);
+  }
+  to {
+    color: var(--yellow);
+  }
+}
+.status-bar .fa-bolt {
+  animation: changeColor 0.2s ease-in-out infinite;
+}

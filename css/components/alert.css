@@ -1,0 +1,29 @@
+.alert {
+  color: tomato;
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.alert-top {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+}
+
+.badge {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-weight: 600;
+}

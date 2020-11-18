@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "variable.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/alert.css";
+@import "components/icon-row.css";
+@import "components/invisible-icon.css";
+@import "components/alt-screen-header.css";
+@import "components/keyframes.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chatroom.css";
+
+html {
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color: var(--white);
+  background-color: var(--black);
+  overflow: auto;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  padding-top: 120px;
+}
+
+.main-height {
+  min-height: 750px;
+}

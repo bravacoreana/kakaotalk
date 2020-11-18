@@ -1,0 +1,119 @@
+.find-body {
+  min-height: 750px;
+}
+
+.recommended-friends {
+  margin: 25px 0px;
+  padding-top: 15px;
+  border-top: var(--main-border);
+  color: var(--white);
+}
+
+.recommended-friends__title {
+  color: var(--hoverblack);
+  font-size: 14px;
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.openchat {
+  margin: 25px 0px;
+  padding-top: 15px;
+  border-top: var(--main-border);
+}
+
+.openchat__header {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  color: var(--hoverblack);
+}
+
+.openchat__header span {
+  color: var(--hoverblack);
+}
+
+.openchat-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+}
+
+.openchat-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.openchat-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.openchat-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.openchat-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.openchat-post__member-count {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.openchat-post__members .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0 7px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.openchat-post__member-status {
+  color: #ffb0e0;
+}
+
+.openchat-post__image {
+  position: relative;
+}
+
+.openchat-post__image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.openchat-post__like-count {
+  color: white;
+  background-color: var(--subtitle);
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+.openchat-post__like-count span {
+  margin-left: 3px;
+}
+
+.openchat-post__like-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

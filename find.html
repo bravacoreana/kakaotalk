@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Talk</title>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <!-- STATUS BAR -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <i class="fas fa-signal"></i><!-- Signal Icon-->
+                <span>Virgin</span>
+                <i class="fas fa-wifi"></i><!-- Wifi Icon -->
+            </div>
+            <div class="status-bar__column">
+                <span>10:12</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lightning Icon -->
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <header class="screen-header">
+            <h1 class="screen-header__title">Find</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fas fa-search fa-lg"></i> <!-- Search icon -->
+                </span>
+                <span>
+                    <i class="fas fa-cog fa-lg"></i> <!-- Cog icon -->
+                </span>
+            </div>
+        </header>
+    </div>
+
+    <!-- USER COMPONENT -->
+    <main class="main-screen main-height">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-qrcode"></i> <!-- QR code icon -->
+                <span>QR Code</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-address-book"></i> <!-- Address-book icon -->
+                <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-user-circle"></i> <!-- User-circle icon -->
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+        <div class="openchat">
+            <div class="openchat__header">
+                <h4>Open Chat</h4>
+                <span>
+                    Go to Openchat Home
+                    <i class="fas fa-chevron-right fa-xs"></i> <!-- Chevron icon -->
+                </span>
+            </div>
+            <div class="openchat-post">
+                <div class="openchat-post__column">
+                    <h5 class="openchat-post__title">#BTS</h5>
+                    <h6 class="openchat-post__hashtags">#bts#army#persona</h6>
+                    <div class="openchat-post__members">
+                        <img src="image/Bilbo.png" />
+                        <span class="openchat-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="openchat-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="openchat-post__column">
+                    <div class="openchat-post__image">
+                        <img src="image/bts.png" />
+                        <div class="openchat-post__like-count">
+                            <i class="fas fa-heart fa-sm"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="openchat-post">
+                <div class="openchat-post__column">
+                    <h5 class="openchat-post__title">#BLACKPINK</h5>
+                    <h6 class="openchat-post__hashtags">#blackpink#blink#friends</h6>
+                    <div class="openchat-post__members">
+                        <img src="image/Bilbo.png" />
+                        <span class="openchat-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="openchat-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="openchat-post__column">
+                    <div class="openchat-post__image">
+                        <img src="image/blackpink.png" />
+                        <div class="openchat-post__like-count">
+                            <i class="fas fa-heart fa-sm"></i>
+                            <span>320</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- NAV BAR -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li calss="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i></i> <!-- User icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">3</span>
+                    <i class="far fa-comment fa-2x"></i></i> <!-- Message icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i> <!-- Search icon -->
+                </a></li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis alert"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i> <!-- Ellipsis icon -->
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

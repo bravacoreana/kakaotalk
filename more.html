@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kokoa Talk</title>
+</head>
+
+<body>
+    <!-- STATUS BAR AND HEADER -->
+    <div class="fixed-header">
+        <!-- STATUS BAR -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <i class="fas fa-signal"></i><!-- Signal Icon-->
+                <span>Virgin</span>
+                <i class="fas fa-wifi"></i><!-- Wifi Icon -->
+            </div>
+            <div class="status-bar__column">
+                <span>10:12</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lightning Icon -->
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <header class="screen-header">
+            <h1 class="screen-header__title">More</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fas fa-search fa-lg"></i> <!-- Search icon -->
+                </span>
+                <span>
+                    <i class="fas fa-music fa-lg"></i> <!-- Music icon -->
+                </span>
+                <span>
+                    <a href="settings.html">
+                    <i class="fas fa-cog fa-lg"></i> <!-- Cog icon -->
+                </a>
+                    <span class="alert alert-top"></span>
+                </span>
+
+            </div>
+        </header>
+    </div>
+
+    <!-- MAIN -->
+    <main class="main-screen more-screen main-height">
+        <!-- USER COMPONENT -->
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://avatars1.githubusercontent.com/u/73965333?s=460&u=f5303ea7a05f6850f4da6407c920218363e863e2&v=4"
+                    class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Lala la</h4>
+                    <h6 class="user-component__subtitle">+39 1234567</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+        <!-- ICONS -->
+        <div class="icons">
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <i class="far fa-calendar-check"></i><!-- Calendar icon -->
+                    <span>Calendar</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-folder"></i> <!-- Folder icon (Drive) -->
+                    <span>Talk Drive</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-smile"></i> <!-- Smile icon -->
+                    <span>Emoticons</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-image"></i> <!-- Image icon -->
+                    <span>Theme</span>
+                </div>
+            </div>
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <i class="far fa-user-circle"></i> <!-- User icon (Account) -->
+                    <span>Account</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="far fa-comments"></i> <!-- Comments icon-->
+                    <span>Openchat</span>
+                </div>
+                <div class="icon-row__icon"></div>
+                <div class="icon-row__icon"></div>
+            </div>
+        </div>
+        <!-- SUGGESTIONS -->
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kakao Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">Kakao Story</span>
+                </div>
+                <div class="more-suggestions__icon"></div>
+                <div class="more-suggestions__icon"></div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- NAV BAR -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li calss="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i></i> <!-- User icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">3</span>
+                    <i class="far fa-comment fa-2x"></i></i> <!-- Message icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i> <!-- Search icon -->
+                </a></li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis alert"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i> <!-- Ellipsis icon -->
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

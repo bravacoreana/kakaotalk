@@ -1,1 +1,1 @@
-Kakao talk clone - updated version
+# Clone KakaoTalk 2020 - Updated

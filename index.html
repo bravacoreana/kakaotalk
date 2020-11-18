@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i
+        ><!-- Signal Icon-->
+        <span>Virgin</span>
+        <i class="fas fa-wifi"></i
+        ><!-- Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>10:12</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i
+        ><!-- Battery Icon -->
+        <i class="fas fa-bolt"></i
+        ><!-- Lightning Icon -->
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, <br />
+        log in with your email or phone number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" required />
+      <input name="password" type="password" placeholder="Password" minlength="10" required />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="friends.html">Find Kokoa Account or Password</a>
+    </form>
+
+    <!-- SPLASH SCREEN -->
+    <div id="splash-screen">
+      <i class="fas fa-comment fa"></i>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
+  </body>
+</html>

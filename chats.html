@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Talk</title>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <!-- STATUS BAR -->
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <i class="fas fa-signal"></i><!-- Signal Icon-->
+                <span>Virgin</span>
+                <i class="fas fa-wifi"></i><!-- Wifi Icon -->
+            </div>
+            <div class="status-bar__column">
+                <span>10:12</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i><!-- Battery Icon -->
+                <i class="fas fa-bolt"></i><!-- Lightning Icon -->
+            </div>
+        </div>
+
+        <!-- HEADER -->
+        <header class="screen-header">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fas fa-search fa-lg"></i> <!-- Search icon -->
+                </span>
+                <span>
+                    <i class="far fa-comment-dots fa-lg"></i> <!-- Comment icon -->
+                </span>
+                <span>
+                    <i class="fas fa-music fa-lg"></i> <!-- Music icon -->
+                </span>
+                <span>
+                    <i class="fas fa-cog fa-lg"></i> <!-- Cog icon -->
+                </span>
+            </div>
+        </header>
+    </div>
+
+    <!-- USER COMPONENT -->
+    <main class="main-screen">
+        <a href="chatroom.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="image/Bilbo.png" class="user-component__avatar user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Bilbo Kim Turato</h4>
+                        <h6 class="user-component__subtitle">Mum, please stay with me.</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">10:00</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+        </a>
+
+        <a href="chatroom_2.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="image/Nenya.png" class="user-component__avatar user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Nenya Kim Turato</h4>
+                        <h6 class="user-component__subtitle">Mum, I'm hungry.</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">10:03</span>
+                    <div class="badge">2</div>
+                </div>
+            </div>
+        </a>
+    </main>
+
+
+    <!-- NAV BAR -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li calss="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i></i> <!-- User icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">3</span>
+                    <i class="fas fa-comment fa-2x"></i></i> <!-- Message icon -->
+                </a>
+            </li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i> <!-- Search icon -->
+                </a></li>
+            <li calss="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis alert"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i> <!-- Ellipsis icon -->
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
