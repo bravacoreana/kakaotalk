@@ -36,7 +36,7 @@ main::-webkit-scrollbar {
   display: flex;
   justify-content: space-between;
   color: var(--lightwhite);
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--main-border);
   padding-top: 10px;
 }
 

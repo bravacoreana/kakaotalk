@@ -5,7 +5,7 @@
 .recommended-friends {
   margin: 25px 0px;
   padding-top: 15px;
-  border-top: var(--main-border);
+  border-top: 1px solid var(--main-border);
   color: var(--white);
 }
 
@@ -24,7 +24,7 @@
 .openchat {
   margin: 25px 0px;
   padding-top: 15px;
-  border-top: var(--main-border);
+  border-top: 1px solid var(--main-border);
 }
 
 .openchat__header {

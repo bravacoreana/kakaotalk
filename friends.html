@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - Kokoa Talk</title>
@@ -58,7 +58,6 @@
       <!--Info icon-->Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
       <!-- Chevron icon -->
     </a>
-
     <!-- MYSELF -->
     <main class="friends-screen">
       <div class="user-component">
@@ -208,10 +207,37 @@
         </li>
       </ul>
     </nav>
+
     <!-- NO MOBILE -->
     <div id="no-mobile">
       <span>Your screen is too big!</span>
     </div>
+
+    <!-- MODAL -->
+    <div class="modal">
+      <span class="close"><i class="fas fa-times"></i></span>
+      <div class="modalContent">
+        <img src="image/Bilbo.png" class="modalImg" />
+      </div>
+    </div>
+
+    <script>
+      const images = document.querySelectorAll(".user-component__column img");
+      const modal = document.querySelector(".modal");
+      const modalImg = document.querySelector(".modalImg");
+      const close = document.querySelector(".close");
+
+      images.forEach((image) => {
+        image.addEventListener("click", () => {
+          modal.classList.add("appear");
+
+          close.addEventListener("click", () => {
+            modal.classList.remove("appear");
+          });
+        });
+      });
+    </script>
+
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
   </body>
