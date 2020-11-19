@@ -1,6 +1,5 @@
 main {
   height: 800px;
-  /* overflow-y: scroll; */
 }
 
 main::-webkit-scrollbar {

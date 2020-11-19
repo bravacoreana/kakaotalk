@@ -217,19 +217,22 @@
     <div class="modal">
       <span class="close"><i class="fas fa-times"></i></span>
       <div class="modalContent">
-        <img src="image/Bilbo.png" class="modalImg" />
+        <img src="" class="modalImg" />
       </div>
     </div>
 
     <script>
-      const images = document.querySelectorAll(".user-component__column img");
+      const users = document.querySelectorAll(".user-component");
       const modal = document.querySelector(".modal");
       const modalImg = document.querySelector(".modalImg");
       const close = document.querySelector(".close");
 
-      images.forEach((image) => {
-        image.addEventListener("click", () => {
+      users.forEach((user) => {
+        const image = user.querySelector("img");
+
+        user.addEventListener("click", () => {
           modal.classList.add("appear");
+          modalImg.src = image.src;
 
           close.addEventListener("click", () => {
             modal.classList.remove("appear");

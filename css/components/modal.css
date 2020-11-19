@@ -1,4 +1,6 @@
-.user-component__column img {
+/* .user-component__column img, */
+.user-component,
+.message-row img {
   cursor: pointer;
 }
 .modal {
@@ -17,26 +19,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
   min-height: 100vh;
 }
 .modalImg {
   width: 50%;
   max-width: 400px;
-  animation: zoom 0.3s linear;
 }
 .close {
+  z-index: 3;
   color: var(--white);
   font-size: 22px;
   position: absolute;
-  top: 16em;
+  top: 13em;
   right: 3em;
 }
 
-.modal .appear {
+.modal.appear {
   opacity: 1;
   pointer-events: all;
 }
+
+.modal.appear .modalImg {
+  animation: zoom 0.3s linear;
+}
+
 @keyframes zoom {
   from {
     transform: scale(0);

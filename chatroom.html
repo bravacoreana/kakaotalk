@@ -90,6 +90,32 @@
       <span>Your screen is too big!</span>
     </div>
 
+    <!-- MODAL -->
+    <div class="modal">
+      <span class="close"><i class="fas fa-times"></i></span>
+      <div class="modalContent">
+        <img src="" class="modalImg" />
+      </div>
+    </div>
+
+    <script>
+      const images = document.querySelectorAll(".message-row img");
+      const modal = document.querySelector(".modal");
+      const modalImg = document.querySelector(".modalImg");
+      const close = document.querySelector(".close");
+
+      images.forEach((image) => {
+        image.addEventListener("click", () => {
+          modalImg.src = image.src;
+          modal.classList.add("appear");
+
+          close.addEventListener("click", () => {
+            modal.classList.remove("appear");
+          });
+        });
+      });
+    </script>
+
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
   </body>
