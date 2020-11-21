@@ -1,6 +1,7 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 20px;
+  /* margin-bottom: 5px; */
+  padding: 7px 10px;
 }
 
 .user-component,
@@ -59,9 +60,6 @@
 .user-component:hover {
   will-change: transform;
   animation: heartBeatChats 1s linear infinite;
-  margin: 1px;
-  padding: 5px;
-  /* background-color: black; */
   border-radius: 15px;
   box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
 }

@@ -12,8 +12,8 @@
 
 .alert-top {
   position: absolute;
-  top: 40px;
-  right: 15px;
+  top: -7px;
+  right: -5px;
 }
 
 .badge {

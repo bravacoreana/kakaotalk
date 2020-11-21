@@ -12,21 +12,17 @@
       <!-- STATUS BAR -->
       <div class="status-bar">
         <div class="status-bar__column">
-          <i class="fas fa-signal"></i
-          ><!-- Signal Icon-->
+          <i class="fas fa-signal"></i>
           <span>Virgin</span>
-          <i class="fas fa-wifi"></i
-          ><!-- Wifi Icon -->
+          <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
           <span>10:12</span>
         </div>
         <div class="status-bar__column">
           <span>100%</span>
-          <i class="fas fa-battery-full fa-lg"></i
-          ><!-- Battery Icon -->
-          <i class="fas fa-bolt"></i
-          ><!-- Lightning Icon -->
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
         </div>
       </div>
 
@@ -34,23 +30,26 @@
       <header class="screen-header">
         <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
-          <span>
-            <i class="fas fa-search fa-lg"></i>
-            <!-- Search icon -->
+          <span class="search-icon">
+            <!-- SEARCH -->
+            <button class="search-btn">
+              <i class="fas fa-search fa-lg"></i>
+            </button>
+            <form class="search-box" action="http://www.google.com/search" method="get" target="_blank">
+              <input type="text" placeholder="Quick Google Search" name="q" />
+            </form>
+            <!-- SEARCH END -->
           </span>
           <span>
             <i class="far fa-comment-dots fa-lg"></i>
-            <!-- Comment icon -->
           </span>
           <span>
             <i class="fas fa-music fa-lg"></i>
-            <!-- Music icon -->
           </span>
           <span>
             <a href="settings.html">
               <i class="fas fa-cog fa-lg"></i>
             </a>
-            <!-- Cog icon -->
           </span>
         </div>
       </header>
@@ -126,7 +125,11 @@
     <div id="no-mobile">
       <span>Your screen is too big!</span>
     </div>
-    <!-- Font Awesome for icons -->
+
+    <!-- JS -->
+    <script src="js/modal.js"></script>
+    <script src="js/search-box.js"></script>
+    <!-- JS: Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
   </body>
 </html>

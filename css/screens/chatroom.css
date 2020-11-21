@@ -125,6 +125,7 @@
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
   background-color: var(--main-border);
+  color: var(--white);
 }
 
 .reply__column:first-child .fa-plus-square {

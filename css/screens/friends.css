@@ -1,8 +1,9 @@
-main {
+.friends-screen {
   height: 800px;
+  overflow-y: scroll;
 }
 
-main::-webkit-scrollbar {
+.friends-screen::-webkit-scrollbar {
   display: none;
 }
 
@@ -27,11 +28,11 @@ main::-webkit-scrollbar {
 }
 
 .friends-screen__category {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .friends-screen__category-header {
-  margin-bottom: 20px;
+  margin: 10px 0px;
   display: flex;
   justify-content: space-between;
   color: var(--lightwhite);
