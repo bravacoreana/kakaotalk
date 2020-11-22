@@ -48,11 +48,13 @@
 @keyframes changeColor {
   from {
     color: rgb(34, 187, 70);
+    opacity: 0.5;
   }
   to {
     color: var(--yellow);
+    opacity: 0.5;
   }
 }
 .status-bar .fa-bolt {
-  animation: changeColor 0.2s ease-in-out infinite;
+  animation: changeColor 0.4s ease-in-out infinite;
 }

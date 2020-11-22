@@ -1,3 +1,52 @@
 .more-screen .icon-row {
   margin-top: 35px;
 }
+
+.userpay {
+  width: inherit;
+  background-color: var(--main-border);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.userpay-money {
+  background-color: var(--black);
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.userpay-money .fa-comment {
+  color: var(--yellow);
+  opacity: 0.7;
+}
+
+.userpay-money span:first-child {
+  font-weight: 600;
+}
+
+.userpay-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userpay-option {
+  margin: 0px 10px;
+}
+
+.divide-bar-xs {
+  opacity: 0.1;
+}
+
+.kakao-now {
+  border-top: 1px solid var(--main-border);
+  margin: 20px 0px;
+}
+
+.kakao-now__title {
+  margin: 20px 0px;
+}

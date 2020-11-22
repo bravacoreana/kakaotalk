@@ -6,11 +6,6 @@
   justify-content: center;
 }
 
-/* Maybe Do, maybe Not. why? : Once name is longer, it goes two lines.
-.alt-header__column {
-  width: 33%;
-} */
-
 .alt-header__column {
   color: var(--white);
 }

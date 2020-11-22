@@ -78,8 +78,3 @@
 .search-btn:focus {
   outline: none;
 }
-/* 
-.search-btn:focus ~ .search-box input {
-  opacity: 1;
-  pointer-events: auto;
-} */
