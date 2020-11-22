@@ -47,6 +47,19 @@
   margin: 20px 0px;
 }
 
-.kakao-now__title {
-  margin: 20px 0px;
+.more__title {
+  margin: 10px 0px;
+}
+
+.kakao-now img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.fa-compass {
+  transform: all 0.3 ease-in-out;
+}
+
+.fa-compass:hover {
+  color: #3badfb;
 }

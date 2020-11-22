@@ -26,10 +26,8 @@
 @import "screens/chatroom.css";
 @import "screens/news.css";
 
-html,
-body {
-  height: 115%;
-  /* overflow: auto; */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -42,4 +40,8 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
   padding-top: 120px;
+}
+
+.more-screen {
+  padding-bottom: 100px;
 }

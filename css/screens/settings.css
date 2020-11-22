@@ -1,18 +1,37 @@
+.alt-header {
+  background-color: var(--black);
+}
+
 .settings__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.settings__setting i {
-  margin-right: 20px;
-  font-size: 22px;
   opacity: 0.6;
 }
 
+.settings__setting-column i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.settings-list {
+  border-bottom: 1px solid var(--main-border);
+  padding-bottom: 7px;
+}
+
+.settings-list .settings__setting:first-child {
+  margin-top: 7px;
+}
 .settings__setting-column:last-child {
   opacity: 0.6;
+}
+
+.more-screen .settings-list:last-child {
+  border-bottom: none;
+}
+
+.settings__setting:hover {
+  opacity: 1;
 }
