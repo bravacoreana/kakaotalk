@@ -7,6 +7,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
+  transform: all 0.3s linear ease-in-out;
 }
 
 .icon-row__icon i {
@@ -16,12 +18,13 @@
 
 .icon-row__icon span {
   margin-top: 15px;
+  width: 75px;
+  text-align: center;
 }
 
 .more-suggestions {
   margin-top: 40px;
   border-top: 1px solid var(--main-border);
-  /* padding-top: 20px; */
 }
 
 .more-suggestions__title {
@@ -35,10 +38,17 @@
 }
 
 .more-suggestions__icon {
-  /* margin-right: 30px; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 15px;
+  width: 100%;
+  transform: all 0.3s linear ease-in-out;
+}
+
+.more-suggestions__icon:hover {
+  background-color: var(--main-border);
+  border-radius: 10px;
 }
 
 .more-suggestions__icon-image {
@@ -53,11 +63,17 @@
 }
 
 .more-suggestions__icon-image i {
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .icon-row__icon:empty,
 .more-suggestions__icon:empty {
-  width: 57.5px;
-  height: 66px;
+  width: 75px;
+  height: 61px;
+  pointer-events: none;
+}
+
+.icon-row__icon:hover {
+  background-color: var(--main-border);
+  border-radius: 10px;
 }

@@ -15,6 +15,7 @@
 @import "components/no-mobile.css";
 @import "components/modal.css";
 @import "components/weather.css";
+@import "components/searchbox.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -39,9 +40,11 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
-.more-screen {
+.body-index,
+.more-screen,
+.chats-screen {
   padding-bottom: 100px;
 }

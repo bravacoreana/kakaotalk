@@ -1,0 +1,25 @@
+.screen-header__icons .search-icon .search-box {
+  width: 100%;
+  position: absolute;
+  bottom: 7px;
+  right: 145px;
+}
+
+.search-box input {
+  padding: 8px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid var(--lightwhite);
+  color: var(--white);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  position: absolute;
+  left: -25px;
+  bottom: -15px;
+}
+
+.inputPopup input {
+  opacity: 1;
+  pointer-events: auto;
+}

@@ -1,6 +1,5 @@
 .friends-screen {
-  height: 800px;
-  overflow-y: scroll;
+  height: 100%;
 }
 
 .friends-screen::-webkit-scrollbar {
@@ -24,7 +23,7 @@
 }
 
 .friends-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 0px var(--horizontal-space) 100px var(--horizontal-space);
 }
 
 .friends-screen__category {
@@ -52,15 +51,17 @@
 
 #splash-screen {
   background-color: var(--black);
-  position: absolute;
-  height: 100vh;
+  position: fixed;
+  height: 100%;
   width: 100vw;
+  z-index: 100;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--yellow);
+  /* color: var(--yellow); */
+  color: var(--blue);
   font-size: 132px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
 }

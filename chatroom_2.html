@@ -13,21 +13,17 @@
       <!-- STATUS BAR -->
       <div class="status-bar" id="status-bar-chatroom">
         <div class="status-bar__column">
-          <i class="fas fa-signal"></i
-          ><!-- Signal Icon-->
+          <i class="fas fa-signal"></i>
           <span>Virgin</span>
-          <i class="fas fa-wifi"></i
-          ><!-- Wifi Icon -->
+          <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
           <span>10:12</span>
         </div>
         <div class="status-bar__column">
           <span>100%</span>
-          <i class="fas fa-battery-full fa-lg"></i
-          ><!-- Battery Icon -->
-          <i class="fas fa-bolt"></i
-          ><!-- Lightning Icon -->
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
         </div>
       </div>
       <!-- HEADER -->
@@ -35,7 +31,6 @@
         <div class="alt-header__column">
           <a href="chats.html">
             <i class="fas fa-angle-left fa-2x"></i>
-            <!-- Angle icon -->
           </a>
         </div>
         <div class="alt-header__column">
@@ -43,12 +38,14 @@
         </div>
         <div class="alt-header__column">
           <span>
-            <i class="fas fa-search fa-lg"></i>
-            <!-- Search icon -->
+            <a href="#">
+              <i class="fas fa-search fa-lg"></i>
+            </a>
           </span>
           <span>
-            <i class="fas fa-bars fa-lg"></i>
-            <!-- Hamburger icon -->
+            <a href="#">
+              <i class="fas fa-bars fa-lg"></i>
+            </a>
           </span>
         </div>
       </header>
@@ -60,7 +57,7 @@
       <div class="chatroom__timestamp">Tuesday, November, 10, 2020</div>
       <!-- MESSAGES -->
       <div class="message-row message-row--sender">
-        <img src="image/Nenya.png" />
+        <img src="image/nenya.png" />
         <div class="message-row__content">
           <span class="message__author">Nenya Kim Turato</span>
           <div class="message__content">
@@ -96,10 +93,10 @@
         </div>
         <div class="reply__column">
           <input type="text" placeholder="Write a message here." />
-          <i class="far fa-smile-wink fa-lg"></i>
+          <i class="far fa-smile-wink fa-lg cr-icon"></i>
           <!-- Smile-wink icon -->
           <button>
-            <i class="fas fa-arrow-up"></i>
+            <i class="fas fa-arrow-up cr-icon"></i>
             <!-- Arrow-up icon -->
           </button>
         </div>
@@ -118,23 +115,8 @@
       </div>
     </div>
 
-    <script>
-      const images = document.querySelectorAll(".message-row img");
-      const modal = document.querySelector(".modal");
-      const modalImg = document.querySelector(".modalImg");
-      const close = document.querySelector(".close");
-
-      images.forEach((image) => {
-        image.addEventListener("click", () => {
-          modalImg.src = image.src;
-          modal.classList.add("appear");
-
-          close.addEventListener("click", () => {
-            modal.classList.remove("appear");
-          });
-        });
-      });
-    </script>
+    <!-- JS -->
+    <script src="js/modal-img.js"></script>
     <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/41acbdadac.js" crossorigin="anonymous"></script>
   </body>

@@ -46,18 +46,10 @@
   opacity: 0.7;
 }
 .fa-cloud {
-  animation: cloudColor 2s ease-in-out infinite;
+  animation: cloudColor 1.6s ease-in-out infinite;
 }
 
 .fa-sun {
   color: #ffcc32;
   opacity: 0.7;
 }
-@keyframes cloudColor {
-  20% {
-    color: #dedadd;
-  }
-  60% {
-    color: #446677;
-  }
-

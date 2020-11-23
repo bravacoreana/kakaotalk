@@ -29,7 +29,6 @@
       <!-- HEADER -->
       <header class="screen-header">
         <h1 class="screen-header__title">Friends</h1>
-
         <div class="screen-header__icons">
           <span class="search-icon">
             <!-- SEARCH -->
@@ -42,7 +41,9 @@
             <!-- SEARCH END -->
           </span>
           <span>
-            <i class="fas fa-music fa-lg"></i>
+            <a href="#">
+              <i class="fas fa-music fa-lg"></i>
+            </a>
           </span>
           <span>
             <a href="settings.html">
@@ -53,12 +54,12 @@
       </header>
     </div>
 
-    <!-- NAMES DISPLAY LINK -->
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
     <!-- MYSELF -->
     <main class="friends-screen">
+      <!-- NAMES DISPLAY LINK -->
+      <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -170,33 +171,49 @@
           </div>
           <div class="user-component__column"></div>
         </div>
+        <div class="user-component friends">
+          <div class="user-component__column">
+            <img src="image/bilbo.png" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text friends-name">
+              <h4 class="user-component__title user-component__title--not-bold">Bilbo Kim Turato</h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component friends">
+          <div class="user-component__column">
+            <img src="image/nenya.png" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text friends-name">
+              <h4 class="user-component__title user-component__title--not-bold">Nenya Kim Turato</h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
       </div>
     </main>
 
     <!-- NAV BAR -->
     <nav class="nav">
       <ul class="nav__list">
-        <li calss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="friends.html">
             <i class="fas fa-user fa-2x"></i>
             <!-- User icon -->
           </a>
         </li>
-        <li calss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">3</span>
             <i class="far fa-comment fa-2x"></i>
             <!-- Message icon -->
           </a>
         </li>
-        <li calss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="find.html">
             <i class="fas fa-search fa-2x"></i>
-            <!-- <i class="fas fa-hashtag fa-2x"></i>
-            <!-- Hashtag icon -->
           </a>
         </li>
-        <li calss="nav__btn">
+        <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <span class="nav__ellipsis alert"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i>
@@ -205,6 +222,11 @@
         </li>
       </ul>
     </nav>
+
+    <!-- SPLASH SCREEN -->
+    <div id="splash-screen">
+      <i class="fas fa-comment fa"></i>
+    </div>
 
     <!-- NO MOBILE -->
     <div id="no-mobile">

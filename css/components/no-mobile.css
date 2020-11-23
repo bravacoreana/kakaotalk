@@ -1,6 +1,6 @@
 #no-mobile {
-  position: absolute;
-  z-index: 99;
+  position: fixed;
+  z-index: 100;
   height: 100vh;
   background-color: var(--black);
   width: 100vw;

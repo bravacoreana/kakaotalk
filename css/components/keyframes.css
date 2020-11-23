@@ -95,3 +95,32 @@
     transform: none;
   }
 }
+
+@keyframes changeColor {
+  from {
+    color: rgb(34, 187, 70);
+    opacity: 0.5;
+  }
+  to {
+    color: var(--yellow);
+    opacity: 0.5;
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes cloudColor {
+  20% {
+    color: #dedadd;
+  }
+  60% {
+    color: #446677;
+  }
+}

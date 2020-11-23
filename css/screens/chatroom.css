@@ -78,6 +78,7 @@
   justify-content: flex-end;
   animation: fadeIn-rightToLeft 0.3s linear forwards;
   animation-delay: 1.8s;
+  padding-bottom: 30px;
 }
 .message-row--own .message__bubble {
   background-color: var(--yellow);
@@ -94,13 +95,15 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: var(--main-border);
+  /* background-color: var(--main-border); */
+  background-color: #353538;
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
   box-sizing: border-box;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  z-index: 3;
 }
 
 .reply .reply__column:first-child {
@@ -131,6 +134,7 @@
 .reply__column:first-child .fa-plus-square {
   transform: translateX(-10px);
 }
+
 .reply__column:last-child > i,
 .reply__column button {
   position: absolute;
@@ -143,6 +147,10 @@
   right: 33px;
   bottom: 5px;
   font-size: 21px;
+}
+
+.reply__column:last-child > i.cr-icon {
+  bottom: 8px;
 }
 
 .reply__column button {
