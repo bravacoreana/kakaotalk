@@ -9,7 +9,6 @@
 @import "components/badge.css";
 @import "components/alert.css";
 @import "components/icon-row.css";
-@import "components/invisible-icon.css";
 @import "components/alt-screen-header.css";
 @import "components/keyframes.css";
 @import "components/no-mobile.css";
@@ -25,7 +24,6 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chatroom.css";
-@import "screens/news.css";
 
 body::-webkit-scrollbar {
   display: none;
