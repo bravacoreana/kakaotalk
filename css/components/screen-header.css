@@ -52,7 +52,7 @@
   outline: none;
 }
 
-.screen-header__icons .search-icon .search-box {
+/* .screen-header__icons .search-icon .search-box {
   width: 100%;
   position: absolute;
   bottom: 7px;
@@ -76,4 +76,4 @@
 .inputPopup input {
   opacity: 1;
   pointer-events: auto;
-}
+} */

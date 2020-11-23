@@ -42,12 +42,3 @@
 .modal.appear .modalImg {
   animation: zoom 0.3s linear;
 }
-
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
-}
