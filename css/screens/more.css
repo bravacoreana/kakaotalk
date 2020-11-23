@@ -63,7 +63,3 @@
 .fa-compass:hover {
   color: #3badfb;
 }
-
-.icon-row__icon:active {
-  transform: scale(0.98);
-}
