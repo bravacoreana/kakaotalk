@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   opacity: 0.6;
+  transform: all 0.3s linear ease-in-out;
 }
 
 .settings__setting-column i {
@@ -34,4 +35,8 @@
 
 .settings__setting:hover {
   opacity: 1;
+}
+
+.settings__setting:active {
+  transform: scale(0.98);
 }

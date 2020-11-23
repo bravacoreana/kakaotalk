@@ -50,12 +50,17 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+  transform: all 0.3s linear ease-in-out;
 }
 
 #login-form input[type="submit"]:hover {
   color: var(--white);
   background-color: var(--hoverblack);
   transition: background-color 0.2s ease-in-out;
+}
+
+#login-form input[type="submit"]:active {
+  transform: scale(0.98);
 }
 
 #login-form a {
